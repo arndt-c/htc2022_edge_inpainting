@@ -39,7 +39,7 @@ based methods to inpaint the invisible edges. In total we have the following ste
 
 - Normalization of the input sinogram.
 - Initial reconstruction with iterative variational method.
-    - loss function: $\frac{1}{2} \|Ax - y \|^2 + \text{perona_malik}(x) + b(x)$, where $b$ is a W-shaped function which prefers images $x$ with binary values and $A$ is the ray transformation.
+    - loss function: $\frac{1}{2} \|Ax - y \|^2 + \text{peronamalik}(x) + b(x)$, where $b$ is a W-shaped function which prefers images $x$ with binary values and $A$ is the ray transformation.
 - Extraction of visible edges (according to angular range).
     - The wavefrontset is approximated by computing the gradient field of the initial reconstruction. All gradients which correspond to invisible edges are left out.
 - Inpainting of missing edges with a U-Net [Ronneberger et. al. (2015)](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28).
