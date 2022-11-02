@@ -93,12 +93,19 @@ We plot a few example reconstructions for the provided challenge phantoms and ou
 ### Synthetic Data 
 
 ![Reconstruction 30](images/SimulatedReconstruction_angularrange=30.png)
+
 ![Reconstruction 40](images/SimulatedReconstruction_angularrange=40.png)
+
 ![Reconstruction 50](images/SimulatedReconstruction_angularrange=50.png)
+
 ![Reconstruction 60](images/SimulatedReconstruction_angularrange=60.png)
+
 ![Reconstruction 70](images/SimulatedReconstruction_angularrange=70.png)
+
 ![Reconstruction 80](images/SimulatedReconstruction_angularrange=80.png)
+
 ![Reconstruction 90](images/SimulatedReconstruction_angularrange=90.png)
+
 ![Ground truth synthetic data](images/Simulated_GT.png)
 
 
@@ -107,10 +114,17 @@ We plot a few example reconstructions for the provided challenge phantoms and ou
 ### Challenge Data 
 
 ![Reconstruction 30](images/ChallengeReconstruction_angularrange=30.png)
+
 ![Reconstruction 40](images/ChallengeReconstruction_angularrange=40.png)
+
 ![Reconstruction 50](images/ChallengeReconstruction_angularrange=50.png)
+
 ![Reconstruction 60](images/ChallengeReconstruction_angularrange=60.png)
+
 ![Reconstruction 70](images/ChallengeReconstruction_angularrange=70.png)
+
 ![Reconstruction 80](images/ChallengeReconstruction_angularrange=80.png)
+
 ![Reconstruction 90](images/ChallengeReconstruction_angularrange=90.png)
+
 ![Ground truth challenge data](images/Challenge_GT.png)
