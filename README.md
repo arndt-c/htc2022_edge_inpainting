@@ -19,19 +19,17 @@ We provided the `enviroment.yml` file to restore the conda enviroment used for t
 conda env create -f environment.yml
 ```
 
-The networks weights are fairly small (~10MB) per difficulty level so we store them directly in the repository. We created a script `main.py` to reconstruct phantoms from limited-angle measurements: 
+The networks weights are too big for the repository. They can be downloaded from
+https://seafile.zfn.uni-bremen.de/d/ffc04b2f7690446eb3bb/.
+We created a script `main.py` to reconstruct phantoms from limited-angle measurements: 
 
 ```
 python main.py /path_to_input_folder /path_to_ouput_folder difficulty_level
 ```
 
-We have uploaded a few limited-angle measurements for the 30° case as an example: 
-
-```
-python main.py examples/limited_angle_30/ output_images/ 7
-```
-
 Currently we can handle both files in MATLAB 5.0 and MATLAB 7.3 format.
+
+Please note that running ```main.py``` may take some minutes due to the use of the ray transformation in an iterative scheme.
 
 
 
