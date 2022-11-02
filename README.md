@@ -21,15 +21,17 @@ conda env create -f environment.yml
 
 The networks weights are too big for the repository. They can be downloaded from
 https://seafile.zfn.uni-bremen.de/d/ffc04b2f7690446eb3bb/.
+You need to save them in the folder `network_weights`.
+
 We created a script `main.py` to reconstruct phantoms from limited-angle measurements: 
 
 ```
 python main.py /path_to_input_folder /path_to_ouput_folder difficulty_level
 ```
 
-Currently we can handle both files in MATLAB 5.0 and MATLAB 7.3 format.
+Currently we can handle both files in MATLAB 5.0 and MATLAB 7.3 format. We tested the script using CUDA version 11.2 on Ubuntu. 
 
-Please note that running ```main.py``` may take some minutes due to the use of the ray transformation in an iterative scheme.
+Please note that running `main.py` may take some minutes due to the use of the ray transformation in an iterative scheme.
 
 
 
