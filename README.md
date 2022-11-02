@@ -8,6 +8,9 @@ Table of contents
     2. [Challenge Data](#challengedata)
 5. [Authors](#authors)
 
+
+<div id="installationandusage"/>
+
 ## Installation and Usage
 
 We provided the `enviroment.yml` file to restore the conda enviroment used for the submission. You can create the enviroment using the following command:
@@ -128,3 +131,9 @@ We plot a few example reconstructions for the provided challenge phantoms and ou
 ![Reconstruction 90](images/ChallengeReconstruction_angularrange=90.png)
 
 ![Ground truth challenge data](images/Challenge_GT.png)
+
+## Authors
+
+Team University of Bremen, Center of Industrial Mathematics (ZeTeM): 
+
+- Alexander Denker, Clemens Arndt, Judith Nickel, Johannes Leuschner, Janek Gödeke, Sören Dittmer
