@@ -19,7 +19,9 @@ We provided the `enviroment.yml` file to restore the conda enviroment used for t
 conda env create -f environment.yml
 ```
 
-The networks weights are too big for the repository. They can be downloaded from
+The networks weights are too big for the repository. For each level of difficulty there are two neural networks with their respective network checkpoints
+`ìnpainting_bce_{angular_range}.ckpt` and  `segment_bce_{angular_range}.ckpt`.
+They can be downloaded from
 https://seafile.zfn.uni-bremen.de/d/ffc04b2f7690446eb3bb/.
 You need to save them in the folder `network_weights`.
 
