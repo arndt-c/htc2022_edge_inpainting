@@ -1,3 +1,3 @@
-Network weights / checkpoints from Seafile
-https://seafile.zfn.uni-bremen.de/d/ffc04b2f7690446eb3bb/
+Network weights / checkpoints from Nextcloud
+https://nc.uni-bremen.de/index.php/s/sj4wX6MwZsrKwLd
 should be placed in this folder.
